@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aiwin Rijo Columbus - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="dark-theme">
+  <!-- HEADER -->
+  <header class="navbar">
+    <div class="logo">ARC</div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#stats">Stats</a></li>
+        <li><a href="#instagram">Instagram</a></li>
+      </ul>
+    </nav>
+    <div class="lang-toggle">
+      <select id="languageSwitcher">
+        <option value="en">English</option>
+        <option value="hi">हिंदी</option>
+        <option value="ml">മലയാളം</option>
+      </select>
+    </div>
+    <button id="themeToggle" class="theme-toggle">🌙</button>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1 id="heroName">Hi, I’m <span>Aiwin Rijo Columbus</span></h1>
+      <p id="typing"></p>
+      <div class="cta-buttons">
+        <a href="#education" class="btn primary">See Education</a>
+        <a href="#skills" class="btn secondary">See Skills</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="avatar">
+        <img src="profile.jpg" alt="Aiwin Rijo Columbus" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about reveal">
+    <h2>About Me</h2>
+    <p id="aboutText">
+      I’m an electrician, passionate about practical work and skilled in my field. 
+      Currently pursuing ITI certification and committed to delivering quality and reliable work.
+    </p>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="education reveal">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>2024-2026 (ITI)</strong> - Nirmala Industrial Training Institute</li>
+      <li><strong>2024 (+2)</strong> - Santhome HSS Kodakkad</li>
+    </ul>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="skills reveal">
+    <h2>Skills</h2>
+    <div class="skill-grid">
+      <div class="skill"><span>Communication</span><div class="bar"><div data-skill="90"></div></div></div>
+      <div class="skill"><span>Organizational</span><div class="bar"><div data-skill="85"></div></div></div>
+      <div class="skill"><span>Leadership</span><div class="bar"><div data-skill="80"></div></div></div>
+      <div class="skill"><span>Problem Solving</span><div class="bar"><div data-skill="88"></div></div></div>
+      <div class="skill"><span>Time Management</span><div class="bar"><div data-skill="82"></div></div></div>
+      <div class="skill"><span>Practical Work</span><div class="bar"><div data-skill="95"></div></div></div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section id="stats" class="stats reveal">
+    <h2>Highlights</h2>
+    <div class="stats-grid">
+      <div class="stat"><span class="count" data-target="2">0</span><p>Years Experience</p></div>
+      <div class="stat"><span class="count" data-target="50">0</span><p>Projects Completed</p></div>
+      <div class="stat"><span class="count" data-target="100">0</span><p>Dedication %</p></div>
+    </div>
+  </section>
+
+  <!-- INSTAGRAM -->
+  <section id="instagram" class="instagram reveal">
+    <h2>Instagram</h2>
+    <p>Follow me on Instagram for updates:</p>
+    <a href="https://instagram.com/aiwin_r_columbus" target="_blank" class="btn insta">📷 @aiwin_r_columbus</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p id="quote"></p>
+    <p>📞 8848627859 | 📧 aiwinrijocolumbus@gmail.com</p>
+    <p>🏠 Poovathunkal, Kolakad PO, Kannur 670673</p>
+    <p>© <span id="year"></span> Aiwin Rijo Columbus</p>
+  </footer>
+</body>
+</html>
